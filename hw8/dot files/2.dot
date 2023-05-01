@@ -1,0 +1,7 @@
+digraph Huffman {
+label="ba\n3"
+  "ba\n3" -> "b\n1" [color=red];
+label="b\n1"
+  "ba\n3" -> "a\n2" [color=blue];
+label="a\n2"
+}

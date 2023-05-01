@@ -1,0 +1,5 @@
+Time complexity for the first for loop - since it's iterating i from 1 to n/2 and then j from 2 * i to n, it has time complexity of O(n^2/2)
+
+Time complexity for the second for loop - since it's iterating i from 1 to n, it has time complexity of O(n)
+
+Hence, total time complexity -> O(n^2/2) + O(n) -> O(n^2/2 + n) which is O(n^2)

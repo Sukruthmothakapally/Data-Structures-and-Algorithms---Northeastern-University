@@ -1,0 +1,35 @@
+Testing Hop.py Starts
+-------Looking for 3 ------------------
+   0   1   2   3   4   5
+   5   1   0   4   2   3
+Num hopped: 4
+-------Looking for 5 ------------------
+   0   1   2   3   4   5
+   5   1   0   4   2   3
+Num hopped: 4
+-------Looking for 1 ------------------
+   0   1   2   3   4   5
+   5   1   0   4   2   3
+Num hopped: 0
+-------Looking for 0 ------------------
+   0   1   2   3   4   5
+   5   1   0   4   2   3
+Num hopped: 4
+-------Looking for 4 ------------------
+   0   1   2   3   4   5
+   5   1   0   4   2   3
+Num hopped: 4
+-------Looking for 2 ------------------
+   0   1   2   3   4   5
+   5   1   0   4   2   3
+Num hopped: 4
+-------Looking for 3 ------------------
+   0   1   2   3   4   5
+   5   1   0   4   2   3
+Num hopped: 4
+---------- 1000 tests------------
+All 1000 Tests are passed. You are a genius
+ALL TESTS PASSED
+Testing Hop.py Ends
+Upload only Solution.py and output of the program as shown above
+For A all tests must pass

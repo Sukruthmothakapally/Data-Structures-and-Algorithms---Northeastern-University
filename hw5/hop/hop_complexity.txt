@@ -1,0 +1,2 @@
+time complexity - O(n) as recursion is used, it may take n number of steps in the worst case
+space complexity - O(n) as recusion is used, it creates new variables at each recursive call 

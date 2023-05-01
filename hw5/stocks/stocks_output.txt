@@ -1,0 +1,36 @@
+3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]
+Testing Stock1.py Starts
+   0   1   2   3   4
+   5  10   4   6  12
+nsquare_time_constant_space work = 10 Profit = 8
+nlogn_time_logn_space work = 12 Profit = 8
+n_time_logn_space work = 5 Profit = 8
+   0   1   2   3   4   5
+   7   1   5   3   6   4
+nsquare_time_constant_space work = 15 Profit = 5
+nlogn_time_logn_space work = 16 Profit = 5
+n_time_logn_space work = 6 Profit = 5
+---------- 100  ascending tests------------
+nsquare_time_constant_space work 4950
+nlogn_time_logn_space work 672
+n_time_constant_space work 100
+ascending tests passed
+---------- 100  descending tests------------
+nsquare_time_constant_space work 4950
+nlogn_time_logn_space work 672
+n_time_constant_space work 100
+descending tests passed
+---------- 100  same value tests------------
+nsquare_time_constant_space work 4950
+nlogn_time_logn_space work 672
+n_time_constant_space work 100
+same value tests passed
+---------- 500  random tests------------
+nsquare_time_constant_space work 62375000
+nlogn_time_logn_space work 2244000
+n_time_constant_space work 250000
+All 500 Random tests passed. You are a guru in stock trading
+ALL TESTS PASSED
+Testing Stock1.py Ends
+Upload only Solution.py and output of the program as shown above
+For A all tests must pass

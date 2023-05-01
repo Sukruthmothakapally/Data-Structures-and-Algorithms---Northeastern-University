@@ -1,0 +1,31 @@
+digraph Huffman {
+label="_+@#bhga\n30"
+  "_+@#bhga\n30" -> "_+@#\n4" [color=red];
+label="_+@#\n4"
+  "_+@#\n4" -> "_+\n2" [color=red];
+label="_+\n2"
+  "_+\n2" -> "_\n1" [color=red];
+label="_\n1"
+  "_+\n2" -> "+\n1" [color=blue];
+label="+\n1"
+  "_+@#\n4" -> "@#\n2" [color=blue];
+label="@#\n2"
+  "@#\n2" -> "@\n1" [color=red];
+label="@\n1"
+  "@#\n2" -> "#\n1" [color=blue];
+label="#\n1"
+  "_+@#bhga\n30" -> "bhga\n26" [color=blue];
+label="bhga\n26"
+  "bhga\n26" -> "bh\n6" [color=red];
+label="bh\n6"
+  "bh\n6" -> "b\n2" [color=red];
+label="b\n2"
+  "bh\n6" -> "h\n4" [color=blue];
+label="h\n4"
+  "bhga\n26" -> "ga\n20" [color=blue];
+label="ga\n20"
+  "ga\n20" -> "g\n9" [color=red];
+label="g\n9"
+  "ga\n20" -> "a\n11" [color=blue];
+label="a\n11"
+}
